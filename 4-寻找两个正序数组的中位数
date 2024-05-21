@@ -1,0 +1,17 @@
+/**
+ * @param {number[]} nums1
+ * @param {number[]} nums2
+ * @return {number}
+ */
+const findMedianSortedArrays = (nums1, nums2) => {
+   if (nums2.length < nums1.length) {
+      [nums1, nums2] = [nums2, nums1]
+   }
+   const m = nums1.length;
+   const n = nums2.length
+   let low = 0
+   let high = m
+   while(low <= high) {
+     
+   }
+};
